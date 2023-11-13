@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>add works</h1>
+        <p class="add">
+            <span id="idInput"></span>
+            <input id="addWork" type="text" placeholder="add more works">
+            <select name="" id="addMode">
+                <option hidden>all</option>
+                <option value="todo">todo</option>
+                <option value="done">done</option>
+                <option value="doing">doing</option>
+                <option value="resolved">resolved</option>
+                <option value="reopen">reopen</option>
+            </select>
+        </p>
+        <p class="status">status:
+            <input type="radio" name="mode" value="todo">todo
+            <input type="radio" name="mode" value="done">done
+            <input type="radio" name="mode" value="doing">doing
+            <input type="radio" name="mode" value="resolved">resolved
+            <input type="radio" name="mode" value="reopen">reopen
+        </p>
+        <p>
+            <button id="submit" onclick="handleSubmit()">add</button>
+            <button onclick="handleClear()">clear</button>
+        </p>
+        <table>
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td>game</td>
+                    <td>mode</td>
+                    <td>
+                        <button onclick="handleDelete()">sửa</button>
+                        <button onclick="handleClear()">xóa</button>
+                    </td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

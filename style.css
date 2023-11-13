@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-size: cover;
+    background-image: url('vivid-blurred-colorful-wallpaper-background_58702-2460.jpg');
+  }
+
+button {
+    cursor: pointer;
+  }
+  table {
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.main {
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #009900 0%, #ccff66 100%);
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1{
+    color: white;
+    margin-top: 50px;
+}
+
+.add{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.status input{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+p button {
+    width: 70px;
+}
+
+td {
+  color: cornsilk;
+}
+
